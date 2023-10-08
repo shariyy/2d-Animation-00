@@ -1,0 +1,15 @@
+#canva1{
+    height: 600px;
+    width: 600px;  
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#selector,label, option, select{
+ font-size: 20px;  
+}
+
+
