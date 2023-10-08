@@ -61,7 +61,7 @@ let position = 0
 let X = 0
 
 const playerImage = new Image();
-playerImage.src = 'Photos/shadow_dog.png';
+playerImage.src = 'shadow_dog.png';
 function animate() {
     let frameLength = animationState[state].locations.length
     let position = Math.floor((gameFrame/frameRate)%frameLength)
